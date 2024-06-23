@@ -1,0 +1,17 @@
+.Footer{
+    background-color:darkgrey; /* Dark background color */
+    color: black; /* White text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    margin: 0;
+  }
+  footer ul {
+    list-style: none;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color:blue;
+
+  }

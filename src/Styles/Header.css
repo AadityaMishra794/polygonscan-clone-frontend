@@ -1,0 +1,68 @@
+#head-ul {
+    height: 3rem;
+    background: whitesmoke;
+    border-radius: 5px;
+  }
+  
+  #headlogo {
+    height: 40px;
+    width: 40px;
+  }
+  
+  #search-bar {
+    border-radius: 20px;
+    border: lightgray;
+    outline: none;
+    padding: 5px 0px 5px 10px;
+    font-size: small;
+    width: 20%;
+  }
+  
+  .navlists {
+    list-style: none;
+    font-family: var(--main-font-family);
+  }
+  
+  .navlinks {
+    text-decoration: none;
+    color: Black;
+    padding: 20px;
+    margin: 5px;
+  }
+  
+  #blc-ul {
+    background-color:whitesmoke;
+    position: absolute;
+    top: 35px;
+    width: 15rem;
+    transform: translateX(0%);
+    z-index: 1;
+    opacity: 0;
+    border-radius: 2px;
+    visibility: hidden;
+    transition: visibility 0.3s linear, opacity 0.3s linear;
+  }
+  
+  .blc-sub-links {
+    list-style: none;
+
+  }
+  
+  .blc-sub-links:hover{
+    font-weight: bolder;
+  }
+  .blockchain-nav {
+    position: relative;
+  }
+  
+  #blc-ul a {
+    text-decoration: none;
+    color: Black;
+    margin:2px;
+    padding: 10px;
+  }
+  .blockchain-nav:hover #blc-ul,
+  .blockchain-nav:focus-within #blc-ul {
+    visibility: visible;
+    opacity: 1;
+  }
