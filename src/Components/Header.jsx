@@ -1,20 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Logo from "../Assets/Logo.png";
+import Logo from "../Assets/Logo.png"; // Replace with actual logo
 import "../Styles/Header.css";
 import "../Styles/utility.css";
 
 const Header = () => {
   return (
     <header>
-      
+    
       <nav>
         <ul id="head-ul" className="items-align">
         <div className="logo">
         <img id="headlogo" src={Logo} alt="PayMe Logo" />
       </div>
           <li className="navlists">
-            <a className="navlinks" href="/">
+            <a className="navlinks" href="#">
               Home
             </a>
           </li>
@@ -24,10 +23,10 @@ const Header = () => {
             </a>
             <ul id="blc-ul">
               <li className="blc-sub-links">
-                <a href="">Transactions</a>
+                <a href="#">Transactions</a>
               </li>
               <li className="blc-sub-links">
-                <a href="">Pending Transactions</a>
+                <a href="#">Pending Transactions</a>
               </li>
               <li className="blc-sub-links">
                 <a href="#">Blocks</a>

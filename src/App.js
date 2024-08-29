@@ -1,28 +1,22 @@
-// App.js
-
 import React from 'react';
-import Header from './Components/Header';
+
+import './App.css'
+
 import Dashboard from './Components/Dashboard';
+import Header from './Components/Header';
+import Transaction from './Components/Transaction';
 import Main from './Components/Main';
 import Footer from './Components/Footer';
-
-import Trnx from './Pages/Trnx';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header><Header /></header>
-      
-      <main id='main-container'>
-        <Main/>
-        <Dashboard/>
-        {/* <Feature /> */}
-      </main >
-      
-      
-      <footer><Footer /></footer>
-      
+      <Header />
+
+      <Main/>
+      <Dashboard/>
+      <Footer/>
+    
     </div>
   );
 }

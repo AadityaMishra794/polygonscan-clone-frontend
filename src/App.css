@@ -15,6 +15,7 @@ body{
   height: 6rem;
   background-color: beige;
   border-radius: 5px;
+  margin-top: 1rem;
 }
 #mid-main{
   height: 12rem;
@@ -53,6 +54,10 @@ body{
 
 .latest-blocks, .latest-transactions {
   width: 48%;
+
+}
+#tnx-head , #block-head{
+  
 }
 
 .block, .transaction {
